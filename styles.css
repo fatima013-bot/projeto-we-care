@@ -1,0 +1,133 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+  header{
+    display:flex;
+   align-items: center;
+   justify-content: flex-end;
+   gap: 23px;
+   padding: 20px 60px;
+    
+  }   
+
+   .link-header{
+       font-weight: 600;
+       font-size: 24px;
+       line-height: 29px;
+       color: #989d9c; 
+       cursor: pointer; 
+      text-decoration:none;
+}
+
+.button-header{
+    background: #665ae1;
+    border-radius: 20.5px;
+    padding: 10px 25px;
+
+    width: 130px;
+    height: 41px;
+    border: none ;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+main {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.img-logo  {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+}
+
+section{
+    max-width: 520px;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 100px;
+    color: #515151;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    color: #515151;
+}
+
+p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #848484;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.button-main{
+    background:#adff00 ;
+    border-radius: 30px;
+   padding: 15pxs 40px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+        .container {
+            width: 960px;
+            margin: 0 auto;
+        }
+
+        @media screen and (max-width: 768px) {
+            .header {
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            main{
+                flex-direction: column;
+                gap: 30px;
+            }
+
+            h1 {
+                font-size: 48px;
+                line-height: 60px;
+                text-align: center;
+            }
+
+h2 {
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+
+
+
+        }
